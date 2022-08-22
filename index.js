@@ -13,8 +13,8 @@ async function main (){
         const data = await transporter.sendMail({
             from:'no-reply@eraertsalan.be',
             to:'alaneraerts@live.be',
-            subject: 'Bienvenue sur eraerts alan.be',
-            text:'Bienvenue sur mon site, Pour tous contact attendez quelque jours'
+            subject: 'Test Email',
+            text:'Test'
         })
         console.log("EMAIL OK! : ",data);
     }catch (e) {
