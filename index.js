@@ -3,7 +3,7 @@ const sparkPostTransport = require("nodemailer-sparkpost-transport");
 
 const transporter = nodemailer.createTransport(
     sparkPostTransport({
-    sparkPostApiKey:'2c9efd4ebb99d78d3c72a81488e3c3a9074a418b',
+    sparkPostApiKey:'*',
             endpoint:'https://api.eu.sparkpost.com'
         })
 )
